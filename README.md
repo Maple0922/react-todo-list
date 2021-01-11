@@ -1,3 +1,47 @@
+# React Todo List
+
+## 概要
+使ってみたい技術を盛り込んで簡単なWebアプリケーションを作る
+
+
+## 使用技術
+
+### フロントエンド
+- `React` (フレームワーク)
+- `TypeScript` (AltJS)
+- `Tailwind` (デザインシステム)
+- `Apollo Client` (API操作用ライブラリ)
+- `GraphQL` (クエリ言語)
+
+### バックエンド
+- `node.js` : (サーバーサイド)
+- `Apollo Server` : (API操作用ライブラリ)
+- `SQLite` : (データベース)
+
+
+## 構成
+
+### ページ構成
+
+- `/`: ダッシュボード
+- `/list`: タスク一覧
+- `/create`: タスク作成
+- `/show/{id}`: タスク閲覧
+- `/edit/{id}`: タスク編集
+
+### コンポーネント
+
+- `Header`
+- `Dashboard`
+- `TaskList`
+- `TaskCreate`
+- `TaskShow`
+- `TaskEdit`
+- `Table`
+- `CreateButton`
+- `DeleteButton`
+- `EditButton`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
